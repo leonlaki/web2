@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/broken.css">
+        <title>Broken Authentication</title>
+    </head>
+    <body>
+        <div class = "container">
+            <h1>Broken Authentication</h1>
+            <form id="authForm">
+                <label for="username">Poruka:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">PIN:</label>
+                <input type="password" id="password" name="password" required>
+
+                <div class="checkbox-container">
+                    <label for="bruteForceProtection">Ranjivost uključena:</label>
+                    <input type="checkbox" id="bruteForceProtection" name="bruteForceProtection">
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+            <div id="loginResult"></div>
+        </div>
+        <script src = "scripts/broken.js"></script>
+    </body>
+</html>

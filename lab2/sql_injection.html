@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/sql.css">
+    <title>SQL Injection</title>
+</head>
+<body>
+    <div class = "container">
+        <h1>SQL Injection</h1>
+        <form id="checkForm">
+            <label for="username">Poruka:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">PIN:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <div class = "checkbox-container">
+                <label for="vulnerability">Ranjivost uključena: </label>
+                <input type="checkbox" id="vulnerability" name="vulnerability"><br><br>
+            </div>
+
+            <button type="submit">Spremi podatke</button>
+        </form>
+    </div>
+    
+
+    <!-- Result Section -->
+    <div id="sqlResult"></div>
+
+    <script src="scripts/sql.js"></script>
+</body>
+</html>
