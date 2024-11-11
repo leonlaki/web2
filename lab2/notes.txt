@@ -1,0 +1,8 @@
+1. SQL Umetanje (SQL Injection) - implementirati barem tautologiju
+-> spriječiti SQL injekciju na način da se atributi upita predaju kao parametri
+
+2. Loša autentifikacija (Broken Authentication)
+-> Ideja: Ako je ranjivost ukljucena, napadac ima neogranicen broj pokušaja pogađanja poruke/PIN-a.
+          Ako je ranjivost iskljucena, napadac ima 3 pokušaja da unese tone podatke, inače će mu biti zabranjen pristup
+          prijavljivanju narednih 5 minuta.
+			    Dodatno, u slučaju da korisnik krivo unese poruku/PIN, aplikacija će vratiti odgovorom Netočna poruka/PIN (ne daje napadaču informaciju koje polje je krivo unio)
