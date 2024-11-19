@@ -1,0 +1,4 @@
+Moja verzija igre "Breakout" pokriva sve obavezne funkcionalnosti:
+vidljiv rub, sjenšanje rubova cigli i palice, loptica se kreće konstantnom brzinom, detektiranje sudara loptice s ciglama/lijevim, desnim ili gornjim rubom/palicom
+"Game Over!" poruka ako loptica promaši palicu, "Congratulations! You have beaten the game! poruka u slučaju pobjede
+Praćenje bodova trenutne igre i praćenje bodova najboljeg igrača od kad je igra prvi put pokrenuta
